@@ -9,8 +9,7 @@ export const increaseOne = (counter) => (dispatch) => {
    });
  };
 
- 
-// Part2: Define Actions
+
 export const decreaseOne = (counter) => (dispatch) => {
    dispatch({
      type: DECREASEONE,
